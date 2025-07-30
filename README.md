@@ -54,20 +54,7 @@ Combining conditionals with loops allows **filtering values**.
 
 ---
 
-## 5. Reverse a 5-Digit Number
 
-**Logic:**  
-Digits are extracted one by one using `% 10`, and the reversed number is built using `reversed = reversed * 10 + digit`.  
-The original number is reduced using `/ 10`.
-
-**Theory:**  
-Modulo and integer division allow **digit-level manipulation**, which is useful for algorithms involving numbers.
-
-**Concepts Covered:**
-
-- Modulo and division  
-- Reversing digits  
-- Arithmetic logic  
 
 ---
 
@@ -89,7 +76,45 @@ Combining loops and conditionals can simulate **basic authentication systems**.
 
 ---
 
-## 7. Increment Star Pattern (Left-Aligned Triangle)
+
+
+## Pattern Programs
+
+These C++ programs demonstrate various star and number patterns using nested loops. They are excellent practice for mastering loop control and formatting output in structured ways.
+
+---
+
+### Inverted Right-Angle Triangle
+
+**Filename:** `inverted right angle triangle.cpp`
+
+**Description:**  
+Prints a star pattern where the number of stars decreases with each row, forming an inverted right-angled triangle.
+
+**Example Output:**
+
+## Conclusion
+
+These programs help us **build a strong foundation in loops, conditionals, and flow control in C++**.  
+They offer hands-on examples for understanding essential logic structures used in real-world applications.
+
+---
+
+### Number triangle Pattern
+
+**Description:**  
+Prints Floyd's Triangle — a right-angled triangle of sequential natural numbers where each row contains an increasing number of elements.
+
+**Logic Overview:**  
+- Uses nested loops.
+- A counter variable is initialized to 1.
+- Outer loop runs for each row.
+- Inner loop prints increasing numbers using the counter and increments it after each print.
+
+**Example Structure (n = 5 rows):**
+---
+
+## Increment Star Pattern (Left-Aligned Triangle)
 
 **Logic:**  
 The outer loop controls rows, and the inner loop prints `*` equal to the row number.  
@@ -122,24 +147,4 @@ Right-aligned patterns require controlling both **spacing and symbols**.
 - Visual formatting  
 
 ---
-
-## Pattern Programs
-
-These C++ programs demonstrate various star and number patterns using nested loops. They are excellent practice for mastering loop control and formatting output in structured ways.
-
----
-
-### Inverted Right-Angle Triangle
-
-**Filename:** `inverted right angle triangle.cpp`
-
-**Description:**  
-Prints a star pattern where the number of stars decreases with each row, forming an inverted right-angled triangle.
-
-**Example Output:**
-
-## Conclusion
-
-These programs help us **build a strong foundation in loops, conditionals, and flow control in C++**.  
-They offer hands-on examples for understanding essential logic structures used in real-world applications.
 
